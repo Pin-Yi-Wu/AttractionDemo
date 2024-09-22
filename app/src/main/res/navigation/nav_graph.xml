@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.homeworkattractions.view.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_webFragment"
+            app:destination="@id/webFragment">
+            <argument
+                android:name="title"
+                app:argType="string" />
+
+            <argument
+                android:name="url"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_homeFragment_to_attractionDetailFragment"
+            app:destination="@id/attractionDetailFragment">
+            <argument
+                android:name="attraction"
+                app:argType="com.example.homeworkattractions.model.Attraction" />
+        </action>
+
+        <action
+            android:id="@+id/action_homeFragment_to_moreListFragment"
+            app:destination="@id/moreListFragment">
+            <argument
+                android:name="viewType"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.homeworkattractions.view.WebFragment"
+        android:label="WebFragment">
+        <argument
+            android:name="title"
+            app:argType="string" />
+
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/attractionDetailFragment"
+        android:name="com.example.homeworkattractions.view.AttractionDetailFragment"
+        android:label="AttractionDetailFragment">
+        <argument
+            android:name="attraction"
+            app:argType="com.example.homeworkattractions.model.Attraction" />
+
+        <action
+            android:id="@+id/action_attractionDetailFragment_to_webFragment"
+            app:destination="@id/webFragment">
+            <argument
+                android:name="title"
+                app:argType="string" />
+
+            <argument
+                android:name="url"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/moreListFragment"
+        android:name="com.example.homeworkattractions.view.MoreListFragment"
+        android:label="MoreListFragment">
+        <argument
+            android:name="viewType"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_moreListFragment_to_webFragment"
+            app:destination="@id/webFragment">
+            <argument
+                android:name="title"
+                app:argType="string" />
+
+            <argument
+                android:name="url"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/action_moreListFragment_to_attractionDetailFragment"
+            app:destination="@id/attractionDetailFragment">
+            <argument
+                android:name="attraction"
+                app:argType="com.example.homeworkattractions.model.Attraction" />
+        </action>
+    </fragment>
+</navigation>

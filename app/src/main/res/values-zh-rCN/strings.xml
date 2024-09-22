@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_select_language_title">选择语言</string>
+    <string name="home_news_title">最新消息</string>
+    <string name="home_attractions_title">旅游景点</string>
+    <string name="home_loading_hint">加载中...</string>
+
+    <string name="attraction_business_hours">营业时间：%s</string>
+    <string name="attraction_address">地址：%s</string>
+    <string name="attraction_phone">电话：%s</string>
+
+    <string name="error_empty_title">目前没有资料喔！</string>
+</resources>

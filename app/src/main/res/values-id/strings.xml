@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_select_language_title">Pilih bahasa</string>
+    <string name="home_news_title">Berita terkini</string>
+    <string name="home_attractions_title">Tempat Wisata</string>
+    <string name="home_loading_hint">Memuat...</string>
+
+    <string name="attraction_business_hours">Jam kerja: %s</string>
+    <string name="attraction_address">Alamat: %s</string>
+    <string name="attraction_phone">Telepon: %s</string>
+
+    <string name="error_empty_title">Saat ini tidak ada informasi!</string>
+</resources>

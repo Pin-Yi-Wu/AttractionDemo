@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_select_language_title">Chọn ngôn ngữ</string>
+    <string name="home_news_title">Tin tức mới nhất</string>
+    <string name="home_attractions_title">Các điểm du lịch</string>
+    <string name="home_loading_hint">Đang tải...</string>
+
+    <string name="attraction_business_hours">Giờ làm việc: %s</string>
+    <string name="attraction_address">Địa chỉ: %s</string>
+    <string name="attraction_phone">Điện thoại: %s</string>
+
+    <string name="error_empty_title">Hiện tại chưa có thông tin!</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_select_language_title">Seleccionar idioma</string>
+    <string name="home_news_title">últimas noticias</string>
+    <string name="home_attractions_title">atracciones turísticas</string>
+    <string name="home_loading_hint">Cargando...</string>
+
+    <string name="attraction_business_hours">Horario comercial: %s</string>
+    <string name="attraction_address">Dirección: %s</string>
+    <string name="attraction_phone">Teléfono: %s</string>
+
+    <string name="error_empty_title">¡Actualmente no hay información!</string>
+</resources>

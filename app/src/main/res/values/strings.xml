@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeworkAttractions</string>
+
+    <!-- Home !-->
+    <string name="home_select_language_title">Select language</string>
+    <string name="home_news_title">Latest news</string>
+    <string name="home_attractions_title">Tourist Attractions</string>
+    <string name="home_loading_hint">Loading...</string>
+
+    <!-- Attraction !-->
+    <string name="attraction_business_hours">Business hours: %s</string>
+    <string name="attraction_address">Address: %s</string>
+    <string name="attraction_phone">Phone: %s</string>
+
+    <!-- Error !-->
+    <string name="error_empty_title">Currently no information!</string>
+</resources>
